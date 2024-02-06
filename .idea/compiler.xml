@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-006-druid" />
+        <module name="springboot-003" />
+        <module name="springboot-007-ssmp" />
+        <module name="springboot-002" />
+        <module name="springboot-005" />
+        <module name="springboot-004" />
+        <module name="springboot-001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-001" target="16" />
+      <module name="springboot-002" target="16" />
+      <module name="springboot-003" target="16" />
+      <module name="springboot-004" target="16" />
+      <module name="springboot-005" target="16" />
+      <module name="springboot-006-druid" target="16" />
+      <module name="springboot-007-ssmp" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-001" options="-parameters" />
+      <module name="springboot-002" options="-parameters" />
+      <module name="springboot-003" options="-parameters" />
+      <module name="springboot-004" options="-parameters" />
+      <module name="springboot-005" options="-parameters" />
+      <module name="springboot-006-druid" options="-parameters" />
+      <module name="springboot-007-ssmp" options="-parameters" />
+    </option>
+  </component>
+</project>
